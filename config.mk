@@ -30,6 +30,11 @@ else
 dir := $(subst $(SRCTREE)/,,$(CURDIR))
 endif
 
+
+
+
+
+
 obj := $(if $(dir),$(OBJTREE)/$(dir)/,$(OBJTREE)/)
 src := $(if $(dir),$(SRCTREE)/$(dir)/,$(SRCTREE)/)
 
